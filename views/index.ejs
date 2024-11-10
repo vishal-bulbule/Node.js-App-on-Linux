@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>All Blogs</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Blog</h1>
+      <nav>
+        <a href="/">Home</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Blog submission form -->
+      <form action="/add" method="POST">
+        <input type="text" name="title" placeholder="Blog Title" required />
+        <textarea name="content" placeholder="Blog Content" required></textarea>
+        <button type="submit">Add Blog</button>
+      </form>
+
+      <!-- Blog cards -->
+      <div class="blog-cards">
+        <% blogs.forEach(blog => { %>
+        <div class="card">
+          <h3><%= blog.title %></h3>
+          <p><%= blog.content.substring(0, 100) %>...</p>
+          <a href="/<%= blog._id %>">Read More</a>
+        </div>
+        <% }) %>
+      </div>
+    </div>
+  </body>
+</html>
