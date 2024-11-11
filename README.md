@@ -27,7 +27,7 @@ Video Tutorial :   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)
 ### 3. Develop the Application
 - Clone the repository
     ```bash
-      git clone https://github.com/vishal-bulbule/NodeJS-on-Linux.git
+      git clone https://github.com/vishal-bulbule/Node.js-App-on-Linux.git
   ```
 - Run the app locally on port 3000 and verify it's working by visiting the VM's IP address.
 
