@@ -1,5 +1,5 @@
 
-# NodeJS on Linux
+# Node.js App on Linux VM
 
 This repository contains a step-by-step guide for deploying a **Node.js application** on a **Linux Virtual Machine (VM)** hosted on **Google Cloud**, with **Nginx** as a reverse proxy and SSL configuration using **Let's Encrypt**. The app is secured with HTTPS and accessible via a custom domain.
 
