@@ -10,6 +10,8 @@ Video Tutorial :   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)
 
 - A **Google Cloud** account to create a virtual machine (VM).
 - A custom **domain name** (e.g., `techtrapture.com`) and a subdomain (e.g., `myblog.techtrapture.com`).
+- MongoDB Setup: Ensure that you have active MongoDB Setup.
+
 
 ## Steps to Deploy
 
