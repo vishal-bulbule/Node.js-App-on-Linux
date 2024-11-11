@@ -4,7 +4,7 @@
 This repository contains a step-by-step guide for deploying a **Node.js application** on a **Linux Virtual Machine (VM)** hosted on **Google Cloud**, with **Nginx** as a reverse proxy and SSL configuration using **Let's Encrypt**. The app is secured with HTTPS and accessible via a custom domain.
 
 
-Video Tutorial :   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://youtu.be/14x4XwEwiDs)
+Video Tutorial :   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://youtu.be/XbFQj7NYjZQ)
 
 ## Prerequisites
 
